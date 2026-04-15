@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS khranitel_pro;
+
 CREATE DATABASE khranitel_pro;
-\c khranitel_pro;
+
 
 CREATE TABLE Роль (
     id SERIAL PRIMARY KEY,
