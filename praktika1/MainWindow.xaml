@@ -1,0 +1,23 @@
+﻿<Window x:Class="praktika1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ХранительПРО - Вход" Height="300" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Margin="20">
+        <StackPanel>
+            <TextBlock Text="Вход в систему" FontSize="20" FontWeight="Bold" Margin="0,0,0,20" HorizontalAlignment="Center"/>
+            <TextBlock Text="Email:"/>
+            <TextBox x:Name="txtEmail" Margin="0,5,0,10"/>
+            <TextBlock Text="Пароль:"/>
+            <PasswordBox x:Name="txtPassword" Margin="0,5,0,10"/>
+            <CheckBox x:Name="chkShowPassword" Content="Показать пароль" Margin="0,0,0,10" Checked="ChkShowPassword_Checked" Unchecked="ChkShowPassword_Unchecked"/>
+            <TextBlock Text="Способ авторизации:"/>
+            <ComboBox x:Name="cmbAuthMethod" Margin="0,5,0,10" SelectedIndex="0">
+                <ComboBoxItem Content="Прямой SQL"/>
+                <ComboBoxItem Content="Хранимая процедура"/>
+                <ComboBoxItem Content="Entity Framework"/>
+            </ComboBox>
+            <Button x:Name="btnLogin" Content="Войти" Height="30" Click="BtnLogin_Click"/>
+            <Button x:Name="btnRegister" Content="Регистрация" Height="30" Margin="0,10,0,0" Click="BtnRegister_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
