@@ -1,10 +1,12 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Win32;
+using Npgsql;
+using programma_praktiki.Models;
+using System;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Win32;
-using programma_praktiki.Models;
 using AppModel = programma_praktiki.Models.Application;
 
 namespace programma_praktiki
@@ -15,6 +17,8 @@ namespace programma_praktiki
         private User? _currentUser;
         private string? _photoPath;
         private string? _scanPath;
+        private ObservableCollection<GroupVisitorViewModel> _groupVisitors = new();
+        private string? _organizerScanPath;
 
         public MainAppWindow(AppDbContext context)
         {
@@ -23,6 +27,11 @@ namespace programma_praktiki
             dtpStart.SelectedDate = DateTime.Today.AddDays(1);
             dtpEnd.SelectedDate = DateTime.Today.AddDays(2);
             LoadDepartments();
+            dtpGroupStart.SelectedDate = DateTime.Today.AddDays(1);
+            dtpGroupEnd.SelectedDate = DateTime.Today.AddDays(2);
+            LoadGroupDepartments();
+            dgGroupVisitors.ItemsSource = _groupVisitors;
+            dgGroupVisitors.SelectedItem = null;
         }
 
         public void SetCurrentUser(User user)
@@ -31,9 +40,257 @@ namespace programma_praktiki
             LoadApplications();
         }
 
+        private void LoadGroupDepartments()
+        {
+            cmbGroupDepartment.ItemsSource = _context.Departments.ToList();
+        }
+
+        private void CmbGroupDepartment_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (cmbGroupDepartment.SelectedValue is int deptId)
+            {
+                cmbGroupEmployee.ItemsSource = _context.Employees
+                    .Where(emp => emp.DepartmentId == deptId && emp.IsActive == true)
+                    .ToList();
+            }
+        }
+
         private void LoadDepartments()
         {
             cmbDepartment.ItemsSource = _context.Departments.ToList();
+        }
+
+        private void BtnAddGroupVisitor_Click(object sender, RoutedEventArgs e)
+        {
+            var newVisitor = new GroupVisitorViewModel
+            {
+                LineNumber = _groupVisitors.Count + 1,
+                BirthDate = DateTime.Today.AddYears(-20)
+            };
+            _groupVisitors.Add(newVisitor);
+        }
+
+        private void BtnLoadGroupVisitorPhoto_Click(object sender, RoutedEventArgs e)
+        {
+            if (sender is Button btn && btn.Tag is GroupVisitorViewModel visitor)
+            {
+                var dlg = new OpenFileDialog { Filter = "JPEG files|*.jpg" };
+                if (dlg.ShowDialog() == true)
+                {
+                    visitor.PhotoPath = dlg.FileName;
+                }
+            }
+        }
+
+        private void BtnLoadGroupVisitorScan_Click(object sender, RoutedEventArgs e)
+        {
+            if (sender is Button btn && btn.Tag is GroupVisitorViewModel visitor)
+            {
+                var dlg = new OpenFileDialog { Filter = "PDF files|*.pdf" };
+                if (dlg.ShowDialog() == true)
+                {
+                    visitor.ScanPath = dlg.FileName;
+                }
+            }
+        }
+
+        private void BtnSubmitGroup_Click(object sender, RoutedEventArgs e)
+        {
+            if (_currentUser == null)
+            {
+                MessageBox.Show("Пользователь не авторизован.");
+                return;
+            }
+
+            // Валидация полей пропуска
+            if (dtpGroupStart.SelectedDate == null || dtpGroupEnd.SelectedDate == null ||
+                string.IsNullOrWhiteSpace(cmbGroupPurpose.Text) ||
+                cmbGroupDepartment.SelectedValue == null || cmbGroupEmployee.SelectedValue == null)
+            {
+                MessageBox.Show("Заполните информацию о пропуске и принимающей стороне.");
+                return;
+            }
+
+            if (_groupVisitors.Count < 5)
+            {
+                MessageBox.Show("В группе должно быть не менее 5 участников.");
+                return;
+            }
+
+            // Валидация каждого участника
+            foreach (var v in _groupVisitors)
+            {
+                if (string.IsNullOrWhiteSpace(v.LastName) || string.IsNullOrWhiteSpace(v.FirstName) ||
+                    string.IsNullOrWhiteSpace(v.Email) || string.IsNullOrWhiteSpace(v.PassportSeries) ||
+                    string.IsNullOrWhiteSpace(v.PassportNumber) || v.BirthDate == default)
+                {
+                    MessageBox.Show($"Участник #{v.LineNumber}: заполните все обязательные поля.");
+                    return;
+                }
+
+                // ← НОВАЯ ПРОВЕРКА ДЛИНЫ ТЕЛЕФОНА
+                if (!string.IsNullOrWhiteSpace(v.Phone) && v.Phone.Length > 100)
+                {
+                    MessageBox.Show($"Участник #{v.LineNumber}: телефон слишком длинный (максимум 100 символов).");
+                    return;
+                }
+
+                if ((DateTime.Today.Year - v.BirthDate.Year) < 16)
+                {
+                    MessageBox.Show($"Участник #{v.LineNumber}: возраст менее 16 лет.");
+                    return;
+                }
+
+                if (!System.Text.RegularExpressions.Regex.IsMatch(v.PassportSeries, @"^\d{4}$") ||
+                    !System.Text.RegularExpressions.Regex.IsMatch(v.PassportNumber, @"^\d{6}$"))
+                {
+                    MessageBox.Show($"Участник #{v.LineNumber}: серия (4 цифры) или номер (6 цифр) паспорта неверны.");
+                    return;
+                }
+
+                if (!v.Email.Contains("@") || !v.Email.Contains("."))
+                {
+                    MessageBox.Show($"Участник #{v.LineNumber}: некорректный email.");
+                    return;
+                }
+
+                if (string.IsNullOrEmpty(v.ScanPath))
+                {
+                    MessageBox.Show($"Участник #{v.LineNumber}: не загружен скан паспорта.");
+                    return;
+                }
+            }
+
+            if (string.IsNullOrEmpty(_organizerScanPath))
+            {
+                MessageBox.Show("Загрузите скан паспорта организатора.");
+                return;
+            }
+
+            using var transaction = _context.Database.BeginTransaction();
+            try
+            {
+                var statusCheck = _context.Statuses.First(s => s.Name == "проверка");
+                var startDate = DateTime.SpecifyKind(dtpGroupStart.SelectedDate.Value, DateTimeKind.Unspecified);
+                var endDate = DateTime.SpecifyKind(dtpGroupEnd.SelectedDate.Value, DateTimeKind.Unspecified);
+                var now = DateTime.SpecifyKind(DateTime.Now, DateTimeKind.Unspecified);
+
+                var app = new AppModel
+                {
+                    UserId = _currentUser.Id,
+                    Type = "групповая",
+                    StartDate = startDate,
+                    EndDate = endDate,
+                    Purpose = cmbGroupPurpose.Text,
+                    DepartmentId = (int)cmbGroupDepartment.SelectedValue,
+                    EmployeeId = (int)cmbGroupEmployee.SelectedValue,
+                    StatusId = statusCheck.Id,
+                    CreatedAt = now
+                };
+
+                _context.Applications.Add(app);
+                _context.SaveChanges();
+
+                foreach (var v in _groupVisitors)
+                {
+                    var gv = new GroupVisitor
+                    {
+                        ApplicationId = app.Id,
+                        LineNumber = v.LineNumber,
+                        LastName = v.LastName,
+                        FirstName = v.FirstName,
+                        MiddleName = v.MiddleName,
+                        Phone = v.Phone,
+                        Email = v.Email,
+                        Organization = v.Organization,
+                        Note = v.Note,
+                        BirthDate = DateTime.SpecifyKind(v.BirthDate, DateTimeKind.Unspecified),
+                        PassportSeries = v.PassportSeries,
+                        PassportNumber = v.PassportNumber,
+                        PhotoPath = v.PhotoPath
+                    };
+
+                    _context.GroupVisitors.Add(gv);
+                    _context.SaveChanges();
+
+                    // Скан паспорта
+                    _context.Documents.Add(new Document
+                    {
+                        GroupVisitorId = gv.Id,
+                        DocType = "скан_паспорта",
+                        FilePath = v.ScanPath,
+                        UploadedAt = now
+                    });
+
+                    // Фото (если загружено)
+                    if (!string.IsNullOrEmpty(v.PhotoPath))
+                    {
+                        _context.Documents.Add(new Document
+                        {
+                            GroupVisitorId = gv.Id,
+                            DocType = "фото",
+                            FilePath = v.PhotoPath,
+                            UploadedAt = now
+                        });
+                    }
+                }
+
+                // Скан организатора
+                _context.Documents.Add(new Document
+                {
+                    DocType = "скан_паспорта",
+                    FilePath = _organizerScanPath,
+                    UploadedAt = now
+                });
+
+                _context.SaveChanges();
+                transaction.Commit();
+
+                MessageBox.Show("Групповая заявка успешно отправлена!");
+                ClearGroupForm();
+            }
+            catch (Exception ex)
+            {
+                transaction.Rollback();
+                string errorMessage = ex.Message;
+                if (ex.InnerException != null)
+                    errorMessage += "\n" + ex.InnerException.Message;
+                if (ex is DbUpdateException dbEx && dbEx.InnerException is PostgresException pgEx)
+                    errorMessage += $"\n[PostgreSQL] {pgEx.MessageText}";
+                MessageBox.Show($"Ошибка при сохранении:\n{errorMessage}");
+            }
+        }
+
+        private void ClearGroupForm()
+        {
+            _groupVisitors.Clear();
+            dtpGroupStart.SelectedDate = DateTime.Today.AddDays(1);
+            dtpGroupEnd.SelectedDate = DateTime.Today.AddDays(2);
+            cmbGroupPurpose.SelectedIndex = -1;
+            cmbGroupDepartment.SelectedIndex = -1;
+            cmbGroupEmployee.ItemsSource = null;
+            txtOrganizerScanPath.Text = "";
+            _organizerScanPath = null;
+        }
+
+        private void BtnLoadOrganizerScan_Click(object sender, RoutedEventArgs e)
+        {
+            var dlg = new OpenFileDialog { Filter = "PDF files|*.pdf" };
+            if (dlg.ShowDialog() == true)
+            {
+                _organizerScanPath = dlg.FileName;
+                txtOrganizerScanPath.Text = System.IO.Path.GetFileName(_organizerScanPath);
+            }
+        }
+
+        private void BtnRemoveGroupVisitor_Click(object sender, RoutedEventArgs e)
+        {
+            if (dgGroupVisitors.SelectedItem is GroupVisitorViewModel selected)
+            {
+                _groupVisitors.Remove(selected);
+                for (int i = 0; i < _groupVisitors.Count; i++)
+                    _groupVisitors[i].LineNumber = i + 1;
+            }
         }
 
         private void CmbDepartment_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -114,10 +371,10 @@ namespace programma_praktiki
                 return;
             }
 
-            // === ИСПРАВЛЕНИЕ: используем Unspecified для timestamp without time zone ===
             var startDate = DateTime.SpecifyKind(dtpStart.SelectedDate.Value, DateTimeKind.Unspecified);
             var endDate = DateTime.SpecifyKind(dtpEnd.SelectedDate.Value, DateTimeKind.Unspecified);
             var birthDate = DateTime.SpecifyKind(dtpBirth.SelectedDate.Value, DateTimeKind.Unspecified);
+            var now = DateTime.SpecifyKind(DateTime.Now, DateTimeKind.Unspecified);
 
             using var transaction = _context.Database.BeginTransaction();
             try
@@ -133,7 +390,8 @@ namespace programma_praktiki
                     Purpose = cmbPurpose.Text,
                     DepartmentId = (int)cmbDepartment.SelectedValue,
                     EmployeeId = (int)cmbEmployee.SelectedValue,
-                    StatusId = statusCheck.Id
+                    StatusId = statusCheck.Id,
+                    CreatedAt = now
                 };
 
                 _context.Applications.Add(app);
@@ -162,7 +420,8 @@ namespace programma_praktiki
                 {
                     PersonalVisitorId = visitor.Id,
                     DocType = "скан_паспорта",
-                    FilePath = _scanPath
+                    FilePath = _scanPath,
+                    UploadedAt = now
                 };
 
                 _context.Documents.Add(doc);
@@ -180,7 +439,9 @@ namespace programma_praktiki
                 string errorMessage = ex.Message;
                 if (ex.InnerException != null)
                     errorMessage += "\n" + ex.InnerException.Message;
-                MessageBox.Show($"Ошибка при сохранении: {errorMessage}");
+                if (ex is DbUpdateException dbEx && dbEx.InnerException is PostgresException pgEx)
+                    errorMessage += $"\n[PostgreSQL] {pgEx.MessageText}";
+                MessageBox.Show($"Ошибка при сохранении:\n{errorMessage}");
             }
         }
 
@@ -222,7 +483,10 @@ namespace programma_praktiki
 
             dgApplications.ItemsSource = query.ToList();
         }
-
+        private void TextBoxOnlyDigits_PreviewTextInput(object sender, System.Windows.Input.TextCompositionEventArgs e)
+        {
+            e.Handled = !System.Text.RegularExpressions.Regex.IsMatch(e.Text, @"^\d+$");
+        }
         private void CmbFilterStatus_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             LoadApplications();

@@ -130,6 +130,8 @@ namespace programma_praktiki.Models
         public virtual Department? Department { get; set; }
         public virtual Employee? Employee { get; set; }
         public virtual Status? Status { get; set; }
+        public virtual PersonalVisitor? PersonalVisitor { get; set; }
+        public virtual ICollection<GroupVisitor> GroupVisitors { get; set; } = new List<GroupVisitor>();
     }
 
     [Table("ПосетительЛичный")]
@@ -151,6 +153,7 @@ namespace programma_praktiki.Models
         public string? MiddleName { get; set; }
 
         [Column("телефон")]
+        [MaxLength(100)]
         public string? Phone { get; set; }
 
         [Column("email")]
@@ -177,14 +180,70 @@ namespace programma_praktiki.Models
         public virtual Application? Application { get; set; }
     }
 
+    [Table("ПосетительГрупповой")]
+    public class GroupVisitor
+    {
+        [Key]
+        [Column("id")]
+        public int Id { get; set; }
+
+        [Column("заявка_id")]
+        public int ApplicationId { get; set; }
+
+        [Column("номер_по_порядку")]
+        public int LineNumber { get; set; }
+
+        [Column("фамилия")]
+        public string LastName { get; set; } = null!;
+
+        [Column("имя")]
+        public string FirstName { get; set; } = null!;
+
+        [Column("отчество")]
+        public string? MiddleName { get; set; }
+
+        [Column("телефон")]
+        [MaxLength(100)]
+        public string? Phone { get; set; }
+
+        [Column("email")]
+        public string Email { get; set; } = null!;
+
+        [Column("организация")]
+        public string? Organization { get; set; }
+
+        [Column("примечание")]
+        public string Note { get; set; } = null!;
+
+        [Column("дата_рождения")]
+        public DateTime BirthDate { get; set; }
+
+        [Column("серия_паспорта")]
+        public string PassportSeries { get; set; } = null!;
+
+        [Column("номер_паспорта")]
+        public string PassportNumber { get; set; } = null!;
+
+        [Column("путь_к_фото")]
+        public string? PhotoPath { get; set; }
+
+        // Навигационное свойство
+        public virtual Application? Application { get; set; }
+        public virtual ICollection<Document> Documents { get; set; } = new List<Document>();
+    }
+
     [Table("Документ")]
     public class Document
     {
-        [Key, Column("id")]
+        [Key]
+        [Column("id")]
         public int Id { get; set; }
 
         [Column("посетитель_личный_id")]
         public int? PersonalVisitorId { get; set; }
+
+        [Column("посетитель_групповой_id")]
+        public int? GroupVisitorId { get; set; }   // <-- ВАЖНО: добавить это свойство
 
         [Column("тип_документа")]
         public string DocType { get; set; } = null!;
@@ -196,5 +255,6 @@ namespace programma_praktiki.Models
         public DateTime? UploadedAt { get; set; }
 
         public virtual PersonalVisitor? PersonalVisitor { get; set; }
+        public virtual GroupVisitor? GroupVisitor { get; set; }
     }
 }

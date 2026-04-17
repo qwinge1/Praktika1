@@ -7,8 +7,36 @@
       "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\mainappwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\mainappwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\mainappwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -19,52 +47,32 @@
       "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\programma_praktiki.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\helpers\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\helpers\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\helpers\\efcorehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\helpers\\efcorehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\helpers\\md5helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\helpers\\md5helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\helpers\\storedprochelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\helpers\\storedprochelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\models\\groupvisitorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\models\\groupvisitorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\mainappwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\mainappwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\helpers\\storedprochelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\helpers\\storedprochelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\helpers\\md5helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\helpers\\md5helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\helpers\\efcorehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\helpers\\efcorehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\programma_praktiki\\programma_praktiki\\helpers\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14883175-85CD-49EB-9CDC-B494D2E465B2}|programma_praktiki\\programma_praktiki.csproj|solutionrelative:programma_praktiki\\helpers\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,15 +90,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "programma_praktiki\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "programma_praktiki\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T05:51:07.14Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\appsettings.json",
-              "RelativeDocumentMoniker": "programma_praktiki\\appsettings.json",
-              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\appsettings.json",
-              "RelativeToolTip": "programma_praktiki\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-16T06:52:37.511Z"
+              "Title": "Entities.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Models\\Entities.cs",
+              "RelativeDocumentMoniker": "programma_praktiki\\Models\\Entities.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Models\\Entities.cs",
+              "RelativeToolTip": "programma_praktiki\\Models\\Entities.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAqwM4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T05:50:47.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "programma_praktiki\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\MainWindow.xaml.cs",
+              "RelativeToolTip": "programma_praktiki\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAqwGMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T05:22:28.88Z"
             },
             {
               "$type": "Document",
@@ -100,7 +132,7 @@
               "RelativeDocumentMoniker": "programma_praktiki\\MainAppWindow.xaml.cs",
               "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\MainAppWindow.xaml.cs",
               "RelativeToolTip": "programma_praktiki\\MainAppWindow.xaml.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAwwLgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAswPAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T05:54:02.199Z",
               "EditorCaption": ""
@@ -108,30 +140,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DatabaseHelper.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Helpers\\DatabaseHelper.cs",
-              "RelativeDocumentMoniker": "programma_praktiki\\Helpers\\DatabaseHelper.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Helpers\\DatabaseHelper.cs",
-              "RelativeToolTip": "programma_praktiki\\Helpers\\DatabaseHelper.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
+              "Title": "RegisterWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\RegisterWindow.xaml.cs",
+              "RelativeDocumentMoniker": "programma_praktiki\\RegisterWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\RegisterWindow.xaml.cs",
+              "RelativeToolTip": "programma_praktiki\\RegisterWindow.xaml.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAG8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T05:51:50.41Z"
+              "WhenOpened": "2026-04-16T05:53:17.704Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "programma_praktiki\\Models\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "programma_praktiki\\Models\\AppDbContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAswCAAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T05:51:07.14Z"
+              "DocumentIndex": 5,
+              "Title": "RegisterWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\RegisterWindow.xaml",
+              "RelativeDocumentMoniker": "programma_praktiki\\RegisterWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\RegisterWindow.xaml",
+              "RelativeToolTip": "programma_praktiki\\RegisterWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-16T05:53:06.401Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "programma_praktiki\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\MainWindow.xaml",
+              "RelativeToolTip": "programma_praktiki\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-16T05:22:33.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainAppWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\MainAppWindow.xaml",
+              "RelativeDocumentMoniker": "programma_praktiki\\MainAppWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\MainAppWindow.xaml",
+              "RelativeToolTip": "programma_praktiki\\MainAppWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-16T05:53:38.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "programma_praktiki\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\AssemblyInfo.cs",
+              "RelativeToolTip": "programma_praktiki\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T09:38:04.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "programma_praktiki.csproj",
               "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\programma_praktiki.csproj",
               "RelativeDocumentMoniker": "programma_praktiki\\programma_praktiki.csproj",
@@ -143,19 +208,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EfCoreHelper.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Helpers\\EfCoreHelper.cs",
-              "RelativeDocumentMoniker": "programma_praktiki\\Helpers\\EfCoreHelper.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Helpers\\EfCoreHelper.cs",
-              "RelativeToolTip": "programma_praktiki\\Helpers\\EfCoreHelper.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAiwCcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\App.xaml.cs",
+              "RelativeDocumentMoniker": "programma_praktiki\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\App.xaml.cs",
+              "RelativeToolTip": "programma_praktiki\\App.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwDYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T05:52:14.613Z"
+              "WhenOpened": "2026-04-16T05:52:29.606Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\App.xaml",
+              "RelativeDocumentMoniker": "programma_praktiki\\App.xaml",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\App.xaml",
+              "RelativeToolTip": "programma_praktiki\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-16T05:52:23.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\appsettings.json",
+              "RelativeDocumentMoniker": "programma_praktiki\\appsettings.json",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\appsettings.json",
+              "RelativeToolTip": "programma_praktiki\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T06:52:37.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GroupVisitorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Models\\GroupVisitorViewModel.cs",
+              "RelativeDocumentMoniker": "programma_praktiki\\Models\\GroupVisitorViewModel.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Models\\GroupVisitorViewModel.cs",
+              "RelativeToolTip": "programma_praktiki\\Models\\GroupVisitorViewModel.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA3wC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T08:55:12.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StoredProcHelper.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Helpers\\StoredProcHelper.cs",
+              "RelativeDocumentMoniker": "programma_praktiki\\Helpers\\StoredProcHelper.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Helpers\\StoredProcHelper.cs",
+              "RelativeToolTip": "programma_praktiki\\Helpers\\StoredProcHelper.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T05:52:04.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Md5Helper.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Helpers\\Md5Helper.cs",
               "RelativeDocumentMoniker": "programma_praktiki\\Helpers\\Md5Helper.cs",
@@ -167,107 +279,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StoredProcHelper.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Helpers\\StoredProcHelper.cs",
-              "RelativeDocumentMoniker": "programma_praktiki\\Helpers\\StoredProcHelper.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Helpers\\StoredProcHelper.cs",
-              "RelativeToolTip": "programma_praktiki\\Helpers\\StoredProcHelper.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "EfCoreHelper.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Helpers\\EfCoreHelper.cs",
+              "RelativeDocumentMoniker": "programma_praktiki\\Helpers\\EfCoreHelper.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Helpers\\EfCoreHelper.cs",
+              "RelativeToolTip": "programma_praktiki\\Helpers\\EfCoreHelper.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwCcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T05:52:04.621Z"
+              "WhenOpened": "2026-04-16T05:52:14.613Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Entities.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Models\\Entities.cs",
-              "RelativeDocumentMoniker": "programma_praktiki\\Models\\Entities.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Models\\Entities.cs",
-              "RelativeToolTip": "programma_praktiki\\Models\\Entities.cs",
-              "ViewState": "AgIAAKcAAAAAAAAAAAAQwMcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Helpers\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "programma_praktiki\\Helpers\\DatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\Helpers\\DatabaseHelper.cs",
+              "RelativeToolTip": "programma_praktiki\\Helpers\\DatabaseHelper.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAqwEUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T05:50:47.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\App.xaml",
-              "RelativeDocumentMoniker": "programma_praktiki\\App.xaml",
-              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\App.xaml",
-              "RelativeToolTip": "programma_praktiki\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-16T05:52:23.364Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\App.xaml.cs",
-              "RelativeDocumentMoniker": "programma_praktiki\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\App.xaml.cs",
-              "RelativeToolTip": "programma_praktiki\\App.xaml.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAqwDYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T05:52:29.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MainAppWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\MainAppWindow.xaml",
-              "RelativeDocumentMoniker": "programma_praktiki\\MainAppWindow.xaml",
-              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\MainAppWindow.xaml",
-              "RelativeToolTip": "programma_praktiki\\MainAppWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-16T05:53:38.727Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "programma_praktiki\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\MainWindow.xaml",
-              "RelativeToolTip": "programma_praktiki\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-16T05:22:33.787Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "programma_praktiki\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\MainWindow.xaml.cs",
-              "RelativeToolTip": "programma_praktiki\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAAAGMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T05:22:28.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RegisterWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\RegisterWindow.xaml",
-              "RelativeDocumentMoniker": "programma_praktiki\\RegisterWindow.xaml",
-              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\RegisterWindow.xaml",
-              "RelativeToolTip": "programma_praktiki\\RegisterWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-16T05:53:06.401Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RegisterWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\RegisterWindow.xaml.cs",
-              "RelativeDocumentMoniker": "programma_praktiki\\RegisterWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\programma_praktiki\\programma_praktiki\\RegisterWindow.xaml.cs",
-              "RelativeToolTip": "programma_praktiki\\RegisterWindow.xaml.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAQwG8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T05:53:17.704Z"
+              "WhenOpened": "2026-04-16T05:51:50.41Z"
             }
           ]
         }

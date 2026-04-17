@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("programma_praktiki")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ed56499a1819629d34e90e7dd09b21fdbcee2c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a18042d526c816745ce8be20da4156e5eceb034f")]
 [assembly: System.Reflection.AssemblyProductAttribute("programma_praktiki")]
 [assembly: System.Reflection.AssemblyTitleAttribute("programma_praktiki")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,46 @@
+﻿<Window x:Class="OfficeStaffTerminal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Терминал общего отдела" Height="861" Width="1165"
+        WindowStartupLocation="CenterScreen" >
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Панель фильтров -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,10">
+            <TextBlock Text="Тип:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+            <ComboBox x:Name="cmbType" Width="120" Margin="0,0,10,0" SelectionChanged="FilterChanged">
+                <ComboBoxItem Content="Все" IsSelected="True"/>
+                <ComboBoxItem Content="личная"/>
+                <ComboBoxItem Content="групповая"/>
+            </ComboBox>
+
+            <TextBlock Text="Подразделение:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+            <ComboBox x:Name="cmbDepartment" Width="180" Margin="0,0,10,0" DisplayMemberPath="Name" SelectedValuePath="Id" SelectionChanged="FilterChanged"/>
+
+            <TextBlock Text="Статус:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+            <ComboBox x:Name="cmbStatus" Width="150" Margin="0,0,10,0" DisplayMemberPath="Name" SelectedValuePath="Id" SelectionChanged="FilterChanged"/>
+
+            <Button x:Name="btnRefresh" Content="Обновить" Width="80" Click="BtnRefresh_Click"/>
+        </StackPanel>
+
+        <!-- Таблица заявок -->
+        <DataGrid x:Name="dgRequests" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True"
+                  MouseDoubleClick="DgRequests_MouseDoubleClick">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}"/>
+                <DataGridTextColumn Header="Тип" Binding="{Binding Type}"/>
+                <DataGridTextColumn Header="Подразделение" Binding="{Binding DepartmentName}"/>
+                <DataGridTextColumn Header="Статус" Binding="{Binding StatusName}"/>
+                <DataGridTextColumn Header="Дата начала" Binding="{Binding StartDate, StringFormat=dd.MM.yyyy}"/>
+                <DataGridTextColumn Header="Дата окончания" Binding="{Binding EndDate, StringFormat=dd.MM.yyyy}"/>
+                <DataGridTextColumn Header="Время посещения" Binding="{Binding VisitTime, StringFormat=dd.MM.yyyy HH:mm}"/>
+                <DataGridTextColumn Header="Цель" Binding="{Binding Purpose}"/>
+                <DataGridTextColumn Header="Заявитель" Binding="{Binding Applicant}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

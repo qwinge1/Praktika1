@@ -1,0 +1,251 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\officestaffterminal\\officestaffterminal\\requestdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|solutionrelative:officestaffterminal\\requestdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\officestaffterminal\\officestaffterminal\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|solutionrelative:officestaffterminal\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\officestaffterminal\\officestaffterminal\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|solutionrelative:officestaffterminal\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\officestaffterminal\\officestaffterminal\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|solutionrelative:officestaffterminal\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\officestaffterminal\\officestaffterminal\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|solutionrelative:officestaffterminal\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\officestaffterminal\\officestaffterminal\\requestdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|solutionrelative:officestaffterminal\\requestdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\officestaffterminal\\officestaffterminal\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|solutionrelative:officestaffterminal\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\officestaffterminal\\officestaffterminal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|solutionrelative:officestaffterminal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\officestaffterminal\\officestaffterminal\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|solutionrelative:officestaffterminal\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\officestaffterminal\\officestaffterminal\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|solutionrelative:officestaffterminal\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\officestaffterminal\\officestaffterminal\\models\\groupvisitorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|solutionrelative:officestaffterminal\\models\\groupvisitorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\officestaffterminal\\officestaffterminal\\models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|solutionrelative:officestaffterminal\\models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\officestaffterminal\\officestaffterminal\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|solutionrelative:officestaffterminal\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|c:\\users\\\u0434\u0438\u043C\u0430\\desktop\\praktika1\\officestaffterminal\\officestaffterminal\\officestaffterminal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{79B90216-E039-49F2-AA87-D04828A863B8}|OfficeStaffTerminal\\OfficeStaffTerminal.csproj|solutionrelative:officestaffterminal\\officestaffterminal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "OfficeStaffTerminal\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\MainWindow.xaml*",
+              "RelativeToolTip": "OfficeStaffTerminal\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-17T10:14:12.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "OfficeStaffTerminal\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\LoginWindow.xaml*",
+              "RelativeToolTip": "OfficeStaffTerminal\\LoginWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-17T10:23:40.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RequestDetailsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\RequestDetailsWindow.xaml",
+              "RelativeDocumentMoniker": "OfficeStaffTerminal\\RequestDetailsWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\RequestDetailsWindow.xaml*",
+              "RelativeToolTip": "OfficeStaffTerminal\\RequestDetailsWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-17T10:26:06.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "OfficeStaffTerminal\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\MainWindow.xaml.cs",
+              "RelativeToolTip": "OfficeStaffTerminal\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAIwIQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T10:14:10.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RequestDetailsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\RequestDetailsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "OfficeStaffTerminal\\RequestDetailsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\RequestDetailsWindow.xaml.cs",
+              "RelativeToolTip": "OfficeStaffTerminal\\RequestDetailsWindow.xaml.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAYwNsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T10:26:37.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "OfficeStaffTerminal\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "OfficeStaffTerminal\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T10:25:32.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "OfficeStaffTerminal\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\AssemblyInfo.cs",
+              "RelativeToolTip": "OfficeStaffTerminal\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T10:55:57.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\appsettings.json",
+              "RelativeDocumentMoniker": "OfficeStaffTerminal\\appsettings.json",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\appsettings.json",
+              "RelativeToolTip": "OfficeStaffTerminal\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-17T10:14:40.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\App.xaml.cs",
+              "RelativeDocumentMoniker": "OfficeStaffTerminal\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\App.xaml.cs",
+              "RelativeToolTip": "OfficeStaffTerminal\\App.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T10:23:19.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\App.xaml",
+              "RelativeDocumentMoniker": "OfficeStaffTerminal\\App.xaml",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\App.xaml",
+              "RelativeToolTip": "OfficeStaffTerminal\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-17T10:23:12.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GroupVisitorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\Models\\GroupVisitorViewModel.cs",
+              "RelativeDocumentMoniker": "OfficeStaffTerminal\\Models\\GroupVisitorViewModel.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\Models\\GroupVisitorViewModel.cs",
+              "RelativeToolTip": "OfficeStaffTerminal\\Models\\GroupVisitorViewModel.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T10:22:42.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Entities.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\Models\\Entities.cs",
+              "RelativeDocumentMoniker": "OfficeStaffTerminal\\Models\\Entities.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\Models\\Entities.cs",
+              "RelativeToolTip": "OfficeStaffTerminal\\Models\\Entities.cs",
+              "ViewState": "AgIAAAcBAAAAAAAAAAAYwCABAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T10:15:16.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OfficeStaffTerminal.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\OfficeStaffTerminal.csproj",
+              "RelativeDocumentMoniker": "OfficeStaffTerminal\\OfficeStaffTerminal.csproj",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\OfficeStaffTerminal.csproj",
+              "RelativeToolTip": "OfficeStaffTerminal\\OfficeStaffTerminal.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-17T10:32:04.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "OfficeStaffTerminal\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\\u0414\u0438\u043C\u0430\\Desktop\\Praktika1\\OfficeStaffTerminal\\OfficeStaffTerminal\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "OfficeStaffTerminal\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T10:22:15.353Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
