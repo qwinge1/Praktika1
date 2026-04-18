@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartmentStaffTerminal", "DepartmentStaffTerminal\DepartmentStaffTerminal.csproj", "{BF549FED-AEFE-4C8B-A5F9-65B088F2AC05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF549FED-AEFE-4C8B-A5F9-65B088F2AC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF549FED-AEFE-4C8B-A5F9-65B088F2AC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF549FED-AEFE-4C8B-A5F9-65B088F2AC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF549FED-AEFE-4C8B-A5F9-65B088F2AC05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A80579D-505A-4609-8C32-2F0376CECE06}
+	EndGlobalSection
+EndGlobal
